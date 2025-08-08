@@ -5,6 +5,7 @@ html, body, .app-container {
   height: 100%;
 }
 span.flexspan {
+  padding: 12px 24px;
   font-size: 12px;
   line-height: 16px;
   color: #333;
@@ -12,7 +13,7 @@ span.flexspan {
   display: flex;
   flex-direction:row;
   background-color: azure;
-  vertical-align:baseline;
+  /* vertical-align:baseline; */align-items: center;
   height:max-content;
 }
 .emph {
